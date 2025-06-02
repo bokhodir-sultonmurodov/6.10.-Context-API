@@ -15,7 +15,7 @@ const Header = () => {
   }, [])
 
   return (
-    <div className="p-6 bg-gray-50">
+    <div className="p-6 bg-gray-50 container  mx-auto">
       <div className="flex items-center justify-between mb-4">
         <h2 className="text-2xl font-bold text-green-600 flex items-center gap-2">
           <FaUtensils /> All Recipes

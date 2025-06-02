@@ -6,7 +6,7 @@ const Footer = () => {
   const liked = useSelector((state) => state.wishlist.like)
 
   return (
-    <div className="p-6 bg-gray-100 mt-10">
+    <div className="p-6 bg-gray-100 mt-10 container mx-auto">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-bold text-red-500 flex items-center gap-2">
           <FaHeart /> Liked Recipes
